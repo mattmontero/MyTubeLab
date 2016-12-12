@@ -10,6 +10,9 @@ android {
             storePassword 'android'
         }
     }
+
+
+
     compileSdkVersion 25
     buildToolsVersion "25.0.1"
     defaultConfig {
@@ -39,6 +42,7 @@ dependencies {
     compile 'com.android.support:design:25.0.1'
     compile 'com.android.support:support-v4:25.0.1'
     testCompile 'junit:junit:4.12'
+    compile files('libs/YouTubeAndroidPlayerApi.jar')
 }
 
 apply plugin: 'com.google.gms.google-services'
